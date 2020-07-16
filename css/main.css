@@ -1,5 +1,5 @@
 body {
-  color: #2d3339;
+  color: #9d3339;
   font-family: "Varela Round";
   text-align: center;
   background: #edeff0;
@@ -9,7 +9,7 @@ a {
   color: #3f8abf;
   text-decoration: none; }
   a:hover {
-    color: #65a1cc; }
+    color: #65d1cc; }
 
 .list {
   background: #fff;
