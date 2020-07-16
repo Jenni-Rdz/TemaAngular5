@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="miPaginaApp">
+  <head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="AngularJs,Ejemplo5">
+    <title>Página con Angular</title>  
+    <script src="vendor/jquery/jquery-3.4.1.min.js"></script>
+    <script src="vendor/boostrap/js/"></script>
+    <script src="vendor/angular/angular.js"></script>
+    <script src="vendor/angular/angular-route.js"></script>
+    <link href="vendor/boostrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+     <nav class="navbar navbar-inverse">
+      <ul class="nav nav-pills">
+        <li><a href="#!/">Inicio</a></li>
+        <li><a href="#!/info">Información</a></li>
+        <li><a href="#!/clientes">Clientes</a></li>
+        <li><a href="#!/contacto">Contacto</a></li>
+      </ul>
+     </nav>  
+     <div ng-view>
+     
+     </div>
+      <script src="js/app.js"></script>
+    </body>
+</html>
